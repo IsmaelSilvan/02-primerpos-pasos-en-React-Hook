@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Mi primer componente */
+
+.label {
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 5px;
+  color: #444;
+}
+
+.label~div input {
+  margin-left: 2.5em;
+}
+
+/* Css para ejercicio 1 */
+
+
+.botones-calculo-year button~button {
+  margin-left: 2.5em;
+}
+
+.comprobacion-caja {
+  display: inline-block;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+ 
+  border: 5px inset black;
+  padding: 0.5em;
+  margin: 15px auto;
+  color: black;
+  background-color: rgb(12, 174, 120);
+
+  font-weight: bold;
+}
+#form-year{
+  margin: 15px auto;
+}
+ 
+#form-year input {
+  margin-left: 2.5em; text-align: center;
+}
