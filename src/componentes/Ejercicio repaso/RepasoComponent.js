@@ -41,8 +41,8 @@ const RepasoComponent = ({ yearActual }) => {
   );
 };
 
-// RepasoComponent.propTypes = {
-//     yearActual: PropTypes.number.isRequired
-// };
+RepasoComponent.propTypes = {
+    yearActual: PropTypes.number.isRequired
+};
 
 export default RepasoComponent;
