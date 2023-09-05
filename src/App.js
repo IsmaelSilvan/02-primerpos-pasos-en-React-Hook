@@ -1,8 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import PruebasComponent from "./componentes/PruebasComponent";
 // import MiPrimerEstado from "./componentes/MiPrimerEstado";
 // import RepasoComponent from "./componentes/Ejercicio repaso/RepasoComponent";
+import PruebasComponent from "./componentes/PruebasComponent";
+import { AjaxComponent } from "./componentes/AjaxComponent";
 
 function App() {
   // const yearActual = new Date().getFullYear();
@@ -15,6 +16,8 @@ function App() {
         <MiPrimerEstado />
         <RepasoComponent yearActual={yearActual}/>  */}
         <PruebasComponent />
+
+        <AjaxComponent />
       </header>
     </div>
   );

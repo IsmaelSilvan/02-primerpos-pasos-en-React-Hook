@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react"; // Componente de prueba para usar useState u useEffect
 import { AvisoComponent } from "./AvisoComponent";
 
 const PruebasComponent = () => {

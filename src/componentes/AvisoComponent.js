@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from "react";// Apendiendo a usar useEffect
 
 export const AvisoComponent = () => {
   useEffect(() => {

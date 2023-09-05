@@ -38,7 +38,7 @@ code {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
- 
+
   border: 5px inset black;
   padding: 0.5em;
   margin: 15px auto;
@@ -47,11 +47,29 @@ code {
 
   font-weight: bold;
 }
-.opcion-2{background-color: blueviolet;}
-#form-year{
+
+.opcion-2 {
+  background-color: blueviolet;
+}
+
+#form-year {
   margin: 15px auto;
 }
- 
+
 #form-year input {
-  margin-left: 2.5em; text-align: center;
+  margin-left: 2.5em;
+  text-align: center;
 }
+
+
+/* Listado usuarios */
+.usuario_listado {
+ display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 1.5em;
+ 
+}
+.usuario_listado img {  width: 100px; border-radius: 100%;border: grey 0.1em solid;}
+.usuario_listado span { display: block; }
